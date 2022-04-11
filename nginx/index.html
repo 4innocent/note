@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nginx | One Note</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/note/favicon.ico">
+    <meta name="description" content="记录学习和问题的文档">
+    
+    <link rel="preload" href="/note/assets/css/0.styles.ba1ec7e7.css" as="style"><link rel="preload" href="/note/assets/js/app.abf3d559.js" as="script"><link rel="preload" href="/note/assets/js/2.abf20492.js" as="script"><link rel="preload" href="/note/assets/js/27.564cfa30.js" as="script"><link rel="prefetch" href="/note/assets/js/10.ef068631.js"><link rel="prefetch" href="/note/assets/js/11.7a9e3ab6.js"><link rel="prefetch" href="/note/assets/js/12.d048b7f3.js"><link rel="prefetch" href="/note/assets/js/13.0d2a6558.js"><link rel="prefetch" href="/note/assets/js/14.957c9f4b.js"><link rel="prefetch" href="/note/assets/js/15.767a95a7.js"><link rel="prefetch" href="/note/assets/js/16.47e3542d.js"><link rel="prefetch" href="/note/assets/js/17.39bbe363.js"><link rel="prefetch" href="/note/assets/js/18.a3845ac9.js"><link rel="prefetch" href="/note/assets/js/19.25cbc001.js"><link rel="prefetch" href="/note/assets/js/20.1767e2b4.js"><link rel="prefetch" href="/note/assets/js/21.b3aac950.js"><link rel="prefetch" href="/note/assets/js/22.42ce2474.js"><link rel="prefetch" href="/note/assets/js/23.92d5aa45.js"><link rel="prefetch" href="/note/assets/js/24.787a6973.js"><link rel="prefetch" href="/note/assets/js/25.e99895e1.js"><link rel="prefetch" href="/note/assets/js/26.d470bd56.js"><link rel="prefetch" href="/note/assets/js/28.dfaf4702.js"><link rel="prefetch" href="/note/assets/js/29.b8e10ca9.js"><link rel="prefetch" href="/note/assets/js/3.1a8c5a94.js"><link rel="prefetch" href="/note/assets/js/30.007fc4e6.js"><link rel="prefetch" href="/note/assets/js/31.8e3e9bd8.js"><link rel="prefetch" href="/note/assets/js/4.a149e6a8.js"><link rel="prefetch" href="/note/assets/js/5.1ddc52f8.js"><link rel="prefetch" href="/note/assets/js/6.d52c9a9a.js"><link rel="prefetch" href="/note/assets/js/7.2451b6b5.js"><link rel="prefetch" href="/note/assets/js/8.11fb2ddd.js"><link rel="prefetch" href="/note/assets/js/9.af987736.js">
+    <link rel="stylesheet" href="/note/assets/css/0.styles.ba1ec7e7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note/" class="home-link router-link-active"><img src="https://one-note.oss-cn-beijing.aliyuncs.com/common/logo.png" alt="One Note" class="logo"> <span class="site-name can-hide">One Note</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术分类" class="dropdown-title"><span class="title">技术分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="技术分类" class="mobile-dropdown-title"><span class="title">技术分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/java/" class="nav-link">
+  java
+</a></li><li class="dropdown-item"><!----> <a href="/note/js/" class="nav-link">
+  javascript
+</a></li><li class="dropdown-item"><!----> <a href="/note/python/" class="nav-link">
+  python
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/mysql/" class="nav-link">
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/note/redis/" class="nav-link">
+  redis
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架设施" class="dropdown-title"><span class="title">框架设施</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架设施" class="mobile-dropdown-title"><span class="title">框架设施</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/spring/" class="nav-link">
+  spring-boot
+</a></li><li class="dropdown-item"><!----> <a href="/note/spring/" class="nav-link">
+  spring-cloud
+</a></li><li class="dropdown-item"><!----> <a href="/note/flask/" class="nav-link">
+  flask
+</a></li><li class="dropdown-item"><!----> <a href="/note/egg/" class="nav-link">
+  egg
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="消息中间件" class="dropdown-title"><span class="title">消息中间件</span> <span class="arrow down"></span></button> <button type="button" aria-label="消息中间件" class="mobile-dropdown-title"><span class="title">消息中间件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/rabbitmq/" class="nav-link">
+  RabbitMQ
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="运维相关" class="dropdown-title"><span class="title">运维相关</span> <span class="arrow down"></span></button> <button type="button" aria-label="运维相关" class="mobile-dropdown-title"><span class="title">运维相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/nginx/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  nginx
+</a></li><li class="dropdown-item"><!----> <a href="/note/docker/" class="nav-link">
+  docker
+</a></li><li class="dropdown-item"><!----> <a href="/note/jekins/" class="nav-link">
+  jekins
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术分类" class="dropdown-title"><span class="title">技术分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="技术分类" class="mobile-dropdown-title"><span class="title">技术分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/java/" class="nav-link">
+  java
+</a></li><li class="dropdown-item"><!----> <a href="/note/js/" class="nav-link">
+  javascript
+</a></li><li class="dropdown-item"><!----> <a href="/note/python/" class="nav-link">
+  python
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/mysql/" class="nav-link">
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/note/redis/" class="nav-link">
+  redis
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架设施" class="dropdown-title"><span class="title">框架设施</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架设施" class="mobile-dropdown-title"><span class="title">框架设施</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/spring/" class="nav-link">
+  spring-boot
+</a></li><li class="dropdown-item"><!----> <a href="/note/spring/" class="nav-link">
+  spring-cloud
+</a></li><li class="dropdown-item"><!----> <a href="/note/flask/" class="nav-link">
+  flask
+</a></li><li class="dropdown-item"><!----> <a href="/note/egg/" class="nav-link">
+  egg
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="消息中间件" class="dropdown-title"><span class="title">消息中间件</span> <span class="arrow down"></span></button> <button type="button" aria-label="消息中间件" class="mobile-dropdown-title"><span class="title">消息中间件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/rabbitmq/" class="nav-link">
+  RabbitMQ
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="运维相关" class="dropdown-title"><span class="title">运维相关</span> <span class="arrow down"></span></button> <button type="button" aria-label="运维相关" class="mobile-dropdown-title"><span class="title">运维相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/nginx/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  nginx
+</a></li><li class="dropdown-item"><!----> <a href="/note/docker/" class="nav-link">
+  docker
+</a></li><li class="dropdown-item"><!----> <a href="/note/jekins/" class="nav-link">
+  jekins
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Nginx</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note/nginx/#简介" class="sidebar-link">简介</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/note/nginx/#常用命令" class="sidebar-link">常用命令</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/note/nginx/#配置文件" class="sidebar-link">配置文件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/note/nginx/#负载均衡" class="sidebar-link">负载均衡</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/nginx/#server主机的配置" class="sidebar-link">server主机的配置</a></li><li class="sidebar-sub-header"><a href="/note/nginx/#location" class="sidebar-link">location</a></li></ul></li><li><a href="/note/nginx/#例子" class="sidebar-link">例子</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/nginx/#反向代理" class="sidebar-link">反向代理</a></li><li class="sidebar-sub-header"><a href="/note/nginx/#设置资源的过期时间" class="sidebar-link">设置资源的过期时间</a></li><li class="sidebar-sub-header"><a href="/note/nginx/#禁止访问某个目录" class="sidebar-link">禁止访问某个目录</a></li><li class="sidebar-sub-header"><a href="/note/nginx/#隐藏服务器版本号" class="sidebar-link">隐藏服务器版本号</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="nginx"><a href="#nginx" class="header-anchor">#</a> Nginx</h1> <h2 id="简介"><a href="#简介" class="header-anchor">#</a> 简介</h2> <p>nginx可以用来做正向代理、反向代理、动静分离（静态文件直接返回减轻服务器压力）、负载均衡（将请求按规则分布到不同服务器减轻单一服务器压力）</p> <h2 id="常用命令"><a href="#常用命令" class="header-anchor">#</a> 常用命令</h2> <p>进入nginx安装目录的sbin文件夹下。</p> <ol><li>查看版本号</li></ol> <blockquote><p>./nginx -V</p></blockquote> <ol start="2"><li>启动nginx</li></ol> <blockquote><p>./nginx</p></blockquote> <ol start="3"><li>停止nginx</li></ol> <blockquote><p>./nginx -s stop</p></blockquote> <ol start="4"><li>重新加载nginx配置文件</li></ol> <blockquote><p>./nginx -s reload</p></blockquote> <h2 id="配置文件"><a href="#配置文件" class="header-anchor">#</a> 配置文件</h2> <p>nginx配置文件分为全局块、events块、http块。</p> <div class="language-nginx extra-class"><pre class="language-nginx"><code><span class="token comment">#user  nobody;</span>
+<span class="token directive"><span class="token keyword">worker_processes</span>  <span class="token number">1</span></span><span class="token punctuation">;</span>  <span class="token comment"># 配置工作进程数</span>
+<span class="token comment"># 错误日志文件</span>
+<span class="token comment">#error_log  logs/error.log;</span>
+<span class="token comment">#error_log  logs/error.log  notice;</span>
+<span class="token comment">#error_log  logs/error.log  info;</span>
+
+<span class="token comment">#pid        logs/nginx.pid; # 进程pid文件</span>
+
+<span class="token comment"># 单个进程支持的最大连接数</span>
+<span class="token directive"><span class="token keyword">events</span></span> <span class="token punctuation">{</span>
+    <span class="token directive"><span class="token keyword">worker_connections</span>  <span class="token number">1024</span></span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment"># </span>
+<span class="token directive"><span class="token keyword">http</span></span> <span class="token punctuation">{</span>
+    <span class="token directive"><span class="token keyword">include</span>       mime.types</span><span class="token punctuation">;</span> <span class="token comment">#文件扩展名和类型映射表</span>
+    <span class="token directive"><span class="token keyword">default_type</span>  application/octet-stream</span><span class="token punctuation">;</span> <span class="token comment">#默认的文件类型</span>
+		<span class="token comment">#设置日志模式</span>
+    <span class="token comment">#log_format  main  '$remote_addr - $remote_user [$time_local] &quot;$request&quot; '</span>
+    <span class="token comment">#                  '$status $body_bytes_sent &quot;$http_referer&quot; '</span>
+    <span class="token comment">#                  '&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;';</span>
+		<span class="token comment">#nginx访问日志的存放位置</span>
+    <span class="token comment">#access_log  logs/access.log  main;</span>
+
+    <span class="token directive"><span class="token keyword">sendfile</span>        <span class="token boolean">on</span></span><span class="token punctuation">;</span> <span class="token comment">#是否开启高效传输模式 on开启 off关闭</span>
+    <span class="token comment">#tcp_nopush     on; #减少网络报文段的数量</span>
+
+    <span class="token comment">#keepalive_timeout  0;</span>
+    <span class="token directive"><span class="token keyword">keepalive_timeout</span>  <span class="token number">65</span></span><span class="token punctuation">;</span> <span class="token comment">#保持连接的时间，也叫超时时间</span>
+
+    <span class="token comment">#gzip  on; #开启gzip压缩模式</span>
+
+		<span class="token comment"># 配置服务，可配置多个</span>
+    <span class="token directive"><span class="token keyword">server</span></span> <span class="token punctuation">{</span>
+        <span class="token directive"><span class="token keyword">listen</span>       <span class="token number">80</span></span><span class="token punctuation">;</span> <span class="token comment">#配置监听端口</span>
+        <span class="token directive"><span class="token keyword">server_name</span>  localhost</span><span class="token punctuation">;</span> //配置域名
+
+        <span class="token comment">#charset koi8-r;</span>
+
+        <span class="token comment">#access_log  logs/host.access.log  main;</span>
+
+        <span class="token directive"><span class="token keyword">location</span> /</span> <span class="token punctuation">{</span>
+            <span class="token directive"><span class="token keyword">root</span>   html</span><span class="token punctuation">;</span> <span class="token comment">#服务默认访问目录</span>
+            <span class="token directive"><span class="token keyword">index</span>  index.html index.htm</span><span class="token punctuation">;</span> <span class="token comment">#默认访问文件</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment">#error_page  404              /404.html; # 配置404页面</span>
+
+        <span class="token comment"># redirect server error pages to the static page /50x.html</span>
+        <span class="token comment">#</span>
+        <span class="token directive"><span class="token keyword">error_page</span>   <span class="token number">500</span> <span class="token number">502</span> <span class="token number">503</span> <span class="token number">504</span>  /50x.html</span><span class="token punctuation">;</span> <span class="token comment">#错误状态码的显示页面，配置后需要重启</span>
+        <span class="token directive"><span class="token keyword">location</span> = /50x.html</span> <span class="token punctuation">{</span>
+            <span class="token directive"><span class="token keyword">root</span>   html</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment"># proxy the PHP scripts to Apache listening on 127.0.0.1:80</span>
+        <span class="token comment">#</span>
+        <span class="token comment">#location ~ \.php$ {</span>
+        <span class="token comment">#    proxy_pass   http://127.0.0.1;</span>
+        <span class="token comment">#}</span>
+
+        <span class="token comment"># pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000</span>
+        <span class="token comment">#</span>
+        <span class="token comment">#location ~ \.php$ {</span>
+        <span class="token comment">#    root           html;</span>
+        <span class="token comment">#    fastcgi_pass   127.0.0.1:9000;</span>
+        <span class="token comment">#    fastcgi_index  index.php;</span>
+        <span class="token comment">#    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;</span>
+        <span class="token comment">#    include        fastcgi_params;</span>
+        <span class="token comment">#}</span>
+
+        <span class="token comment"># deny access to .htaccess files, if Apache's document root</span>
+        <span class="token comment"># concurs with nginx's one</span>
+        <span class="token comment">#</span>
+        <span class="token comment">#location ~ /\.ht {</span>
+        <span class="token comment">#    deny  all;</span>
+        <span class="token comment">#}</span>
+    <span class="token punctuation">}</span>
+
+
+    <span class="token comment"># another virtual host using mix of IP-, name-, and port-based configuration</span>
+    <span class="token comment">#</span>
+    <span class="token comment">#server {</span>
+    <span class="token comment">#    listen       8000;</span>
+    <span class="token comment">#    listen       somename:8080;</span>
+    <span class="token comment">#    server_name  somename  alias  another.alias;</span>
+
+    <span class="token comment">#    location / {</span>
+    <span class="token comment">#        root   html;</span>
+    <span class="token comment">#        index  index.html index.htm;</span>
+    <span class="token comment">#    }</span>
+    <span class="token comment">#}</span>
+
+
+    <span class="token comment"># HTTPS server</span>
+    <span class="token comment">#</span>
+    <span class="token comment">#server {</span>
+    <span class="token comment">#    listen       443 ssl;</span>
+    <span class="token comment">#    server_name  localhost;</span>
+
+    <span class="token comment">#    ssl_certificate      cert.pem;</span>
+    <span class="token comment">#    ssl_certificate_key  cert.key;</span>
+
+    <span class="token comment">#    ssl_session_cache    shared:SSL:1m;</span>
+    <span class="token comment">#    ssl_session_timeout  5m;</span>
+
+    <span class="token comment">#    ssl_ciphers  HIGH:!aNULL:!MD5;</span>
+    <span class="token comment">#    ssl_prefer_server_ciphers  on;</span>
+
+    <span class="token comment">#    location / {</span>
+    <span class="token comment">#        root   html;</span>
+    <span class="token comment">#        index  index.html index.htm;</span>
+    <span class="token comment">#    }</span>
+    <span class="token comment">#}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="负载均衡"><a href="#负载均衡" class="header-anchor">#</a> 负载均衡</h2> <div class="language-nginx extra-class"><pre class="language-nginx"><code><span class="token directive"><span class="token keyword">upstream</span>  xxx.com</span> <span class="token punctuation">{</span>
+  <span class="token directive"><span class="token keyword">ip_hash</span></span><span class="token punctuation">;</span>
+  <span class="token directive"><span class="token keyword">server</span> 192.168.8.11:80</span><span class="token punctuation">;</span>
+  <span class="token directive"><span class="token keyword">server</span> 192.168.8.12:80 down</span><span class="token punctuation">;</span>
+  <span class="token directive"><span class="token keyword">server</span> 192.168.8.13:8009 max_fails=3 fail_timeout=20s</span><span class="token punctuation">;</span>
+  <span class="token directive"><span class="token keyword">server</span> 192.168.8.146:8080</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>负载均衡算法：</p> <ul><li>轮询（默认采用轮询）</li> <li>Weight（权重值）：指定轮询权值，Weight值越大，分配到的访问机率越高，主要用于后端每个服务器性能不均的情况下；</li> <li>ip_hash：每个请求按访问IP的hash结果分配，这样来自同一个IP的访客固定访问一个后端服务器，有效解决了动态网页存在的session共享问题；</li> <li>fair、url_hash：这两种算法nginx默认不支持，需要添加相关软件包</li></ul> <p>在负载均衡中还可以设置每个服务器的状态：</p> <ul><li>down：表示本机器暂不参与负载均衡</li> <li>backup：备份机器。当其他所有的非backup机器出现故障或者忙的时候，才会请求backup机器，因此这台机器的压力最轻；</li> <li>max_fails：允许请求失败的次数，默认为1。当超过最大次数时，返回proxy_next_upstream 模块定义的错误；</li> <li>fail_timeout：在经历了max_fails次失败后，暂停服务的时间。max_fails可以和fail_timeout一起使用。</li></ul> <h3 id="server主机的配置"><a href="#server主机的配置" class="header-anchor">#</a> server主机的配置</h3> <p>server的配置可以抽出在单独的文件中，然后通过include引入，方便修改。</p> <div class="language-nginx extra-class"><pre class="language-nginx"><code><span class="token directive"><span class="token keyword">listen</span> <span class="token number">80</span></span><span class="token punctuation">;</span>  <span class="token comment">#监听端口</span>
+<span class="token directive"><span class="token keyword">server_name</span> 192.168.8.18 cszhi.com</span><span class="token punctuation">;</span> <span class="token comment"># 用来指定转发的IP地址或者域名，多个域名之间用空格分开</span>
+<span class="token directive"><span class="token keyword">index</span> index.html index.htm index.php</span><span class="token punctuation">;</span> <span class="token comment"># 用于设定访问的默认首页文件</span>
+<span class="token directive"><span class="token keyword">root</span> /root/www.cszhi.com <span class="token comment">#指定虚拟主机的网页根目录，这个目录可以是相对路径，也可以是绝对路径。</span>
+charset gb2312</span><span class="token punctuation">;</span> <span class="token comment"># 设置网页的默认编码格式</span>
+<span class="token comment"># 指定此虚拟主机的访问日志存放路径，最后的main用于指定访问日志的输出格式。</span>
+<span class="token directive"><span class="token keyword">access_log</span> logs/www.ixdba.net.access.log main</span><span class="token punctuation">;</span> 
+</code></pre></div><h3 id="location"><a href="#location" class="header-anchor">#</a> location</h3> <p>location支持正则表达式匹配，也支持条件判断匹配。用户可以通过location指令实现Nginx对动、静态网页进行过滤处理。</p> <p>具体语法为：</p> <div class="language-nginx extra-class"><pre class="language-nginx"><code><span class="token directive"><span class="token keyword">location</span> [=|~|~*|^~] /uri/</span> <span class="token punctuation">{</span>...<span class="token punctuation">}</span>
+</code></pre></div><ul><li>以=开头表示精确匹配</li> <li>以^~开头表示url以某个常规字符串开始，可以理解为匹配url路径。nginx不对url路径做编码，因此请求为/static/20%/aa可以被^~  /static/ /aa匹配</li> <li>以~开头表示匹配区分大小写的正则匹配</li> <li>以~*开头表示不区分大小写的正则匹配</li> <li>!~和!~*开头分别表示区分大小写的不匹配和不区分大小写的不匹配</li> <li>/表示匹配任意路径</li></ul> <p>多个location匹配优先级为精确匹配最优先，然后是上面的顺序从上到下，最后是/通配。</p> <h2 id="例子"><a href="#例子" class="header-anchor">#</a> 例子</h2> <h3 id="反向代理"><a href="#反向代理" class="header-anchor">#</a> 反向代理</h3> <div class="language-nginx extra-class"><pre class="language-nginx"><code><span class="token directive"><span class="token keyword">location</span> /</span> <span class="token punctuation">{</span>
+    proxy_pass http://....com, <span class="token comment"># 被代理对象</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="设置资源的过期时间"><a href="#设置资源的过期时间" class="header-anchor">#</a> 设置资源的过期时间</h3> <div class="language-nginx extra-class"><pre class="language-nginx"><code><span class="token directive"><span class="token keyword">location</span> ~ /.(jpg|css|js|font)$</span> <span class="token punctuation">{</span>
+  <span class="token directive"><span class="token keyword">expries</span> <span class="token number">1h</span></span><span class="token punctuation">;</span> <span class="token comment"># 缓存一小时过期</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="禁止访问某个目录"><a href="#禁止访问某个目录" class="header-anchor">#</a> 禁止访问某个目录</h3> <div class="language-nginx extra-class"><pre class="language-nginx"><code><span class="token directive"><span class="token keyword">location</span> /</span> <span class="token punctuation">{</span>
+  <span class="token directive"><span class="token keyword">root</span> /root/static</span><span class="token punctuation">;</span>
+  <span class="token directive"><span class="token keyword">deny</span> all</span><span class="token punctuation">;</span> <span class="token comment"># 禁止所有用户访问该目录</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="隐藏服务器版本号"><a href="#隐藏服务器版本号" class="header-anchor">#</a> 隐藏服务器版本号</h3> <div class="language-nainx extra-class"><pre class="language-text"><code>http{
+  server_tokens off;
+}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/note/assets/js/app.abf3d559.js" defer></script><script src="/note/assets/js/2.abf20492.js" defer></script><script src="/note/assets/js/27.564cfa30.js" defer></script>
+  </body>
+</html>
