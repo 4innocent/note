@@ -34,11 +34,11 @@ export const navbar = [
     items: [
       {
         text: "spring-boot",
-        link: "/spring/",
+        link: "/spring/boot/",
       },
       {
         text: "spring-cloud",
-        link: "/spring/",
+        link: "/spring/cloud/",
       },
       {
         text: "flask",
