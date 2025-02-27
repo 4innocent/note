@@ -4,24 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.5.13/vue.global.prod.min.js"
-      integrity="sha512-66fV4MXSQdGN0KQxZ0Bw627HalhTQYQbOoF24EtMXN2FaAoKMgAZ7nDi77d9xWwrRjEEUfE+7rxjTt+cA2IuJA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+      src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.5.13/vue.global.prod.min.js"></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/core-js/3.40.0/minified.min.js"
-      integrity="sha512-TagWkenvpY6XpxqHX3/ey46nFE+kvOKXTY/QLTRnexN237tHb6NXRoZ16rxwEMJTUCdnRXeP2SNM4Wgusdrb9g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+      src="https://cdnjs.cloudflare.com/ajax/libs/core-js/3.40.0/minified.min.js"></script>
     <title>Document</title>
   </head>
   <body>
-    <div id="app"></div>
-    <template id="container">
+    <div id="app">
       <h1>{{ message }}</h1>
-    </template>
+    </div>
   </body>
   <script>
     const app = Vue.createApp({
@@ -29,7 +20,6 @@
         const message = Vue.ref("Hello Vue 3");
         return { message };
       },
-      template: "#container",
     });
     app.mount("#app");
   </script>
